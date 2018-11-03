@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
   if (!file.open(QIODevice::ReadOnly))
   {
-    QMessageBox::information(0, file.errorString(), QString("读取名册文件 ").append(ITEMS_FILE_NAME).append(" 失败")
+    QMessageBox::information(0, file.errorString(), QString("读取名册文件 ").append(file.fileName()).append(" 失败")
                              .append("\nNOTE：你可以以文件路径为第一个参数启动本程序\nNOTE：在 Windows 上你可以将花名册文件拖动到本程序 exe 文件上执行"));
     app.exit(1);
     return 1;
