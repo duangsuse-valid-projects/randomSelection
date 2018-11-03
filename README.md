@@ -7,10 +7,9 @@ This Qt5 desktop application is developed for touch-screen-only tablets like [se
 
 ### Environment Variables
 
-RS_FLOATSIZE: Float windows font size （~= float window's size）
-
-RS_NAMEWIDTH: NameDialog window width
-RS_NAMEHEIGTH: NameDialog window heigth
++ RS_FLOATSIZE: Float windows font size （~= float window's size）
++ RS_NAMEWIDTH: NameDialog window width
++ RS_NAMEHEIGTH: NameDialog window heigth
 
 ### Use — How-To
 
@@ -39,5 +38,14 @@ randomSelection.exe # (default path = randomItems.txt)
 randomSelection.exe [listItemPath]
 ```
 
-left click on the float window = open random NameDialog window
-right click on the float window = exit program
++ left click on the float window = open random NameDialog window
++ right click on the float window = exit program
+
+## License
+
+Copyright (C) 2018, duangsuse
+
+duangsuse/randomSelection is licensed under the
+Apache License 2.0
+
+see LICENSE notice [here](https://github.com/duangsuse/randomSelection/blob/master/LICENSE)
