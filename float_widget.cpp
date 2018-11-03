@@ -15,7 +15,7 @@
 QTextStream out(stdout);
 
 Widget::Widget(QWidget *parent, int fontSize): QWidget(parent, Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint)
-{ 
+{
   QLayout *layout = new QBoxLayout(QBoxLayout::TopToBottom);
   QLabel *label = new QLabel;
 
@@ -42,18 +42,19 @@ void Widget::mousePressEvent(QMouseEvent *event)
 {
   if (event->button() == Qt::LeftButton)
   {
-    relativePos = this->pos()- event->globalPos();
+    relativePos = this->pos() - event->globalPos();
   }
   else if (event->button() == Qt::RightButton)
   {
     emit exitRequested();
   }
+
   pressedTime = event->timestamp();
 }
 
 void Widget::mouseReleaseEvent(QMouseEvent *event)
 {
-  if (event->button() == Qt::LeftButton && (event->timestamp() - pressedTime) < 300)
+  if (event->button() == Qt::LeftButton && (event->timestamp() - pressedTime) < 100)
   {
     int select_index = rand() % names->length() - 1;
     auto selection = names->at(select_index);

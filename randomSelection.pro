@@ -26,11 +26,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         float_widget.cpp \
-    name_window.cpp
+        name_window.cpp
 
 HEADERS += \
         float_widget.h \
-    name_window.h
+        name_window.h
 
 FORMS += \
-    namedialog.ui
+        namedialog.ui

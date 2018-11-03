@@ -1,15 +1,10 @@
 #include "ui_namedialog.h"
+#include "name_window.h"
 
 #include <QApplication>
 #include <QDialog>
 #include <QPushButton>
 #include <QTimer>
-
-class NameDialog: public QDialog, Ui::Dialog
-{
-public:
-  NameDialog(QWidget *parent = 0, QString *name = nullptr, int width = 941, int height = 561);
-};
 
 NameDialog::NameDialog(QWidget *parent, QString *name, int width, int height): QDialog(parent)
 {

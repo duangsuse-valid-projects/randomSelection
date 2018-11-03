@@ -2,6 +2,7 @@
 #define NAME_WINDOW_H
 
 #include <ui_namedialog.h>
+
 class NameDialog: public QDialog, Ui::Dialog
 {
 public:
