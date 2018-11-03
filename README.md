@@ -41,6 +41,12 @@ randomSelection.exe [listItemPath]
 + left click on the float window = open random NameDialog window
 + right click on the float window = exit program
 
+## Screenshots
+
+[![Screenshot_20181103_105112.png](https://i.loli.net/2018/11/03/5bdd0f4c13d19.png)](https://i.loli.net/2018/11/03/5bdd0f4c13d19.png)
+
+[![try.gif](https://i.loli.net/2018/11/03/5bdd0f6629a2b.gif)](https://i.loli.net/2018/11/03/5bdd0f6629a2b.gif)
+
 ## License
 
 Copyright (C) 2018, duangsuse
