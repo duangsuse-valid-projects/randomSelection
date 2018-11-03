@@ -55,3 +55,11 @@ duangsuse/randomSelection is licensed under the
 Apache License 2.0
 
 see LICENSE notice [here](https://github.com/duangsuse/randomSelection/blob/master/LICENSE)
+
+## About Qt License
+
+This program uses the Qt Framework, version _5.11.1_
+
+Qt for Application Development is also available under GPL and LGPLv3 open source licenses. Qt tools and some libraries are only available under GPL.
+
+see [qt.io/licensing](https://www1.qt.io/licensing/) for more information
