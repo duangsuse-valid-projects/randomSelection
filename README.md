@@ -40,8 +40,8 @@ randomSelection.exe # (default path = randomItems.txt)
 randomSelection.exe [listItemPath]
 ```
 
-+ left click on the float window = open random NameDialog window
-+ right click on the float window = exit program
++ left click on the floating window = open random NameDialog window
++ right click on the floating window = exit program
 
 ## Compiling
 
@@ -49,7 +49,7 @@ Install Qt SDK first, then
 
 ```bash
 cd ProjectDir
-qmake-qt5 # -spec=linux-clang if you want to use Clang LLVM Compiler as project compiler
+qmake-qt5 # -spec linux-clang if you want to use Clang LLVM Compiler as project compiler
 make
 ```
 
@@ -89,6 +89,6 @@ see [qt.io/licensing](https://www1.qt.io/licensing/) for more information
 ## More resources
 
 + [Search in seewo e+ applications forum](http://bbs.seewoedu.cn/search.php?mod=forum&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=%E7%82%B9%E5%90%8D)
-+ [VisualBsaic for Applications Excel Macro](http://bbs.seewoedu.cn/forum.php?mod=viewthread&tid=2266&highlight=%E7%82%B9%E5%90%8D)
++ [VisualBsaic for Applications Excel "randomSelection" Macro](http://bbs.seewoedu.cn/forum.php?mod=viewthread&tid=2266&highlight=%E7%82%B9%E5%90%8D)
 + [Learn Excel VBA Macros](https://www.excel-easy.com/vba/)
 
