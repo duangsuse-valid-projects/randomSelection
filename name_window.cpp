@@ -16,7 +16,7 @@ NameDialog::NameDialog(QWidget *parent, QString *name, int width, int height): Q
   setupUi(this);
   setWindowFlags(Qt::Tool | Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint);
   label->setText(*name);
-  resize(width, height);
+  resize(width + 40, height + 20);
   label->setGeometry(QRect(30, 20, width, height));
   QTimer::singleShot(3000, this, SLOT(close()));
 }
